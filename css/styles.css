@@ -103,11 +103,6 @@ body {
   vertical-align: middle;
 }
 
-#top-title-thank {}
-
-#top-title-about {}
-
-#top-title-address {}
 
 #address {
   padding: 0 5%;
@@ -139,7 +134,7 @@ body {
 .founder-heading {
   font-family: Cinzel;
   background: linear-gradient(85deg, rgb(255, 0, 170), rgb(55, 0, 255));
-  -webkit-background-clip: text;
+  -webkit-background-clip: text; background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -153,7 +148,7 @@ body {
   font-size: 4em;
   background-size: 50%;
   background: linear-gradient(85deg, rgb(255, 0, 170), rgb(55, 0, 255));
-  -webkit-background-clip: text;
+  -webkit-background-clip: text; background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -283,7 +278,7 @@ nav {
 
 #counter-style div {
   background: cyan;
-  -webkit-background-clip: text;
+  -webkit-background-clip: text; background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -502,7 +497,7 @@ nav {
   background: -moz-linear-gradient(65deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
 
   background: -webkit-linear-gradient(65deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-  -webkit-background-clip: text;
+  -webkit-background-clip: text; background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -515,7 +510,7 @@ nav {
   background: -moz-linear-gradient(14deg, hsla(49, 100%, 48%, 1) 0%, rgb(119, 0, 230) 100%);
 
   background: -webkit-linear-gradient(14deg, hsla(49, 100%, 48%, 1) 0%, rgb(119, 0, 230) 100%);
-  -webkit-background-clip: text;
+  -webkit-background-clip: text; background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -593,7 +588,7 @@ nav {
   background: linear-gradient(45deg, rgb(243, 0, 0), rgb(255, 166, 0));
   font-size: 4em;
   font-family: Montserrat Subrayada;
-  -webkit-background-clip: text;
+  -webkit-background-clip: text; background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -712,7 +707,7 @@ textarea {
     background: -moz-linear-gradient(65deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
 
     background: -webkit-linear-gradient(65deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    -webkit-background-clip: text;
+    -webkit-background-clip: text; background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
@@ -725,7 +720,7 @@ textarea {
     background: -moz-linear-gradient(14deg, hsla(49, 100%, 48%, 1) 0%, rgb(119, 0, 230) 100%);
 
     background: -webkit-linear-gradient(14deg, hsla(49, 100%, 48%, 1) 0%, rgb(119, 0, 230) 100%);
-    -webkit-background-clip: text;
+    -webkit-background-clip: text; background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
