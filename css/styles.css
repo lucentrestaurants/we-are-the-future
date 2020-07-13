@@ -867,12 +867,12 @@ textarea {
     background: url(burgerclosed.png);
     z-index: 100;
     cursor: pointer;
-    transform: rotateX(0deg);
+    transform: rotateY(0deg);
     transition: transform 0.2s ease-in;
   }
 
   #toggleIcon.active {
-    transform: rotateX(180deg);
+    transform: rotateY(180deg);
     background: url(burgeropen.png);
   }
 
