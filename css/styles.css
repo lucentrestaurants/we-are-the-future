@@ -426,6 +426,8 @@ nav {
   color: white;
   padding: 10vh 0 0 0;
   vertical-align: middle;
+  background-color: rgba(0, 0, 0, 0.158);
+  background-clip: content-box;
 }
 
 .burgerclosed {
